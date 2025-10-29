@@ -1,36 +1,3 @@
-let js = "amazing";
-// H: if (js === "amazing") alert("Javascript is FUN!");
-
-console.log(40 + 8 + 23 - 10);
-
-console.log("Brendan");
-console.log(23);
-
-
-// = Values
-
-let firstName = "Bren";
-
-console.log(firstName);
-console.log(firstName);
-console.log(firstName);
-
-/*
-
-// SUM 
-
-You can use _ or $
-Remember there are words you cannot use
-Remember to use CamelCase 
-
-*/
-
-let myFirstJob = "Paper Carrier"
-let myCurrentJob = "Polymath : Musician, Coder, Inventor, Businessman"
-
-console.log(myFirstJob)
-
-
 // = Data Types
 
 // SUM = Objects or Primitives
@@ -75,4 +42,10 @@ let sheep;
 // } Big INT : Too large to be represented by the Number type
 
 
-// * = JavaScript has a feature called dynamic typing. Meaning, we do not have to manually define the data type of the value stored in a variable. Instead, data types t
+// * = JavaScript 
+
+// = Has a feature called dynamic typing. 
+
+// = Meaning, we do not have to manually define the data type of the value stored in a variable. Instead, data types are determined automatically.
+
+// = A Value has a type not a variable
