@@ -132,7 +132,7 @@ let sheep;
 // } Big INT : Too large to be represented by the Number type
 
 
-
+/* 
 
 // * = JavaScript 
 
@@ -141,3 +141,43 @@ let sheep;
 // = Meaning, we do not have to manually define the data type of the value stored in a variable. Instead, data types are determined automatically.
 
 // = A Value has a type not a variable
+
+*/
+
+
+// = BOOLEANS
+
+true;
+
+let javascriptIsInProgress = true;
+console.log(javascriptIsInProgress);
+
+// = console.log(typeof );
+
+console.log(typeof(true));
+console.log(typeof(javascriptIsInProgress));
+console.log(typeof(23));
+console.log(typeof('Jento'));
+
+// = Dynamic Typing
+
+javascriptIsInProgress = 'Sui!';
+console.log(typeof(javascriptIsInProgress));
+
+// * This can only be done if the variable is declared with ( let ) then without using ( let ) you can change the value of the variable.
+
+let yo;
+console.log(yo);
+console.log(typeof(yo));
+
+yo = 1999;
+console.log(typeof(yo));
+
+// * These are examples of dynamic typing
+
+
+// = NULL and Typeof
+
+console.log(typeof null);
+
+// * This is incorrect, it should return null but returns object for legacy reason bug remains.
