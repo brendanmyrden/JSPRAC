@@ -47,3 +47,34 @@ if (js === "amazing")
 4 / 5;
 
 
+// = Values
+
+// | = let js = "amazing";
+// H: if (js === "amazing") alert("Javascript is FUN!");
+
+console.log(40 + 8 + 23 - 10);
+
+console.log("Brendan");
+console.log(23);
+
+
+let firstName = "Bren";
+
+console.log(firstName);
+console.log(firstName);
+console.log(firstName);
+
+/*
+
+// SUM 
+
+You can use _ or $
+Remember there are words you cannot use
+Remember to use CamelCase 
+
+*/
+
+let myFirstJob = "Paper Carrier"
+let myCurrentJob = "Polymath : Musician, Coder, Inventor, Businessman"
+
+console.log(myFirstJob)
