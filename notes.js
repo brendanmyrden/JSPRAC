@@ -309,3 +309,68 @@ const brendanNew = `I'm ${firstNickname}, a ${nowYear - birthYear} year old ${jo
 console.log(brendanNew);
 
 console.log(`A regular string...`);
+
+
+// = if / else statements
+
+const age = 19;
+const isOldEnough = age >= 18;
+
+
+if(isOldEnough) {
+    console.log(`Sarah can have her driver's permit 🏎️ `);
+}
+
+// * if (boolean) : the condition must be a boolean or code will break
+
+
+const ageJo = 15;
+
+
+if(ageJo >= 18) {
+    console.log(`Sarah can have her driver's permit 🏎️ `);
+} else {
+    const yearsLeft = 18 - ageJo;
+    console.log(`Sarah is too young. She must wait ${yearsLeft} more years.`)
+}
+
+// * if (boolean) : the condition must be a boolean or code will break
+
+
+if(){
+
+} else {
+
+}
+
+// ! This above is called and if / else control structure
+
+
+const nowAge = 15;
+
+
+if(nowAgege >= 18) {
+    console.log(`Sarah can have her driver's permit 🏎️ `);
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. She must wait ${yearsLeft} more years.`)
+}
+
+// * if (boolean) : the condition must be a boolean or code will break
+
+
+const birthYearMitch = 2012;
+
+let century;
+// * must define variable outside of if / else statement
+
+if(birthYearMitch <= 2000) {
+
+    century = 20; // conditional reassignment
+
+} else {
+    
+    century = 21; // conditional reassignment
+}
+
+console.log(century)

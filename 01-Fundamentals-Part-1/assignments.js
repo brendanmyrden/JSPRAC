@@ -88,3 +88,12 @@ const description = `${country} is in ${continent} and it's ${myCountryPopulatio
 console.log(description);
 
 // * = Correct
+
+
+// = Coding Challenge 2 = Template Literals
+
+if(BMIMark > BMIJohn){
+    console.log(`Marks BMI of ${BMIMark} is greater than John's BMI of ${BMIJohn}`)
+} else {
+    console.log(`Johns BMI of ${BMIJohn} is greater than Mark's BMI of ${BMIMark}`)
+}
