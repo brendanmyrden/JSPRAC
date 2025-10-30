@@ -269,3 +269,25 @@ const isFullAge = ageSam >= 18;
 console.log(isFullAge);
 
 console.log(now - 1994 > now - 2018);
+
+
+// = Operator Precedence
+
+// * Can be found officially on MDN site
+
+const thisYear = 2026;
+const ageJiff = thisYear - 1989;
+const ageLue = thisYear - 1980;
+
+console.log(thisYear - 1989 > thisYear - 1980);
+
+console.log(25 - 10 - 5);
+
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
+
+const averageAge = (ageJiff + ageLue / 2)
+console.log();
+
+// = Use () to create an order, without them the / is executed 1st
