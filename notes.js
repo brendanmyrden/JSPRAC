@@ -291,3 +291,21 @@ const averageAge = (ageJiff + ageLue / 2)
 console.log();
 
 // = Use () to create an order, without them the / is executed 1st
+
+
+// = Strings and Template Literals
+
+const firstNickname = "Bren";
+const job = "Polymath";
+const birthYear = "1994";
+const nowYear = 2025;
+
+const brendan = "I'm " + firstNickname + ', a ' + (nowYear - birthYear) + ' year old ' + job + '!';
+
+console.log(brendan);
+
+const brendanNew = `I'm ${firstNickname}, a ${nowYear - birthYear} year old ${job}!`;
+
+console.log(brendanNew);
+
+console.log(`A regular string...`);

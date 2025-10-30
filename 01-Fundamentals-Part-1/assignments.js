@@ -12,7 +12,7 @@ let myCountryPopulation = 41718598;
 
 console.log(country,',', continent,',', myCountryPopulation);
 
-// SUM = Correct
+// * = Correct
 
 
 // = 2 Data Types
@@ -25,7 +25,7 @@ console.log(typeof country);
 console.log(typeof myCountryPopulation);
 console.log(typeof language);
 
-// SUM = Correct
+// * = Correct
 
 
 // = 3 let, const, var
@@ -37,7 +37,7 @@ console.log(language);
 // | console.log(isIsland);
 // * This doesn't work because of the rules of const
 
-// SUM = Correct
+// * = Correct
 
 
 // = 4 Basic Operators
@@ -59,7 +59,7 @@ const description = country + ' is in ' + continent + ' and its ' + myCountryPop
 
 console.log(description);
 
-// SUM = Correct
+// * = Correct
 
 
 // = Coding Challenge 1 = BMI = mass / (height * height);
@@ -77,3 +77,14 @@ console.log(BMIJohn, BMIMark);
 
 const markHigherBMI = (BMIMark > BMIJohn);
 console.log(markHigherBMI);
+
+// * = Correct
+
+
+// = 5 Strings and Template Literals
+
+const description = `${country} is in ${continent} and it's ${myCountryPopulation} people speak ${language}`;
+
+console.log(description);
+
+// * = Correct
