@@ -152,7 +152,7 @@ true;
 let javascriptIsInProgress = true;
 console.log(javascriptIsInProgress);
 
-// = console.log(typeof );
+// = Typeof Operator = console.log(typeof );
 
 console.log(typeof(true));
 console.log(typeof(javascriptIsInProgress));
@@ -211,3 +211,61 @@ const birthYear = 1994;
 
 // * const values cannot change 
 // * Use const by default
+
+
+// = Basic Operators
+
+// * Allows us to transform, work with values
+
+
+const ageBrendan = 2045 - 1994;
+console.log(ageBrendan);
+
+const ageSam = 2045 - 2018;
+console.log(ageBrendan, ageSam);
+
+// | Because 2045 is the same value used twice, extrapolate it to a variable
+
+
+// = Math Operators
+
+const now = 2045
+
+const ageBrendan = now - 1994;
+console.log(ageBrendan);
+
+const ageSam = now - 2018;
+console.log(ageBrendan, ageSam);
+
+console.log(ageBrendan * 2, ageSam / 10, 2 ** 3);
+
+// = ** means exponential ie. 2 ** 3 means 2 * 2 * 2
+
+
+const firstInitial = "B";
+const lastInitial = "M";
+
+console.log(firstInitial + lastInitial);
+
+
+// =  Assignment Operators
+
+let x = 10 + 5; // = 15
+x += 10; // =   x = x + 10 = 25
+x *= 4; // =    x = 25 * 4 = 100
+x++; // =       x = x + 1
+x--; // =       x = x - 1 
+console.log(x);
+
+// | Pay attention to order of operations ()
+
+
+// = Comparison Operators : Which are boolean
+
+console.log(ageBrendan > ageSam); // >, <, >=, <=
+console.log(ageSam >= 18);
+
+const isFullAge = ageSam >= 18;
+console.log(isFullAge);
+
+console.log(now - 1994 > now - 2018);
