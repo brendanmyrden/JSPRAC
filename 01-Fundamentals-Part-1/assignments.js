@@ -60,3 +60,20 @@ const description = country + ' is in ' + continent + ' and its ' + myCountryPop
 console.log(description);
 
 // SUM = Correct
+
+
+// = Coding Challenge 1 = BMI = mass / (height * height);
+
+const massMark = 78
+const massJohn = 92
+
+const heightMark = 1.69
+const heightJohn = 1.95
+
+const BMIMark = massMark / (heightMark * heightMark);
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+
+console.log(BMIJohn, BMIMark);
+
+const markHigherBMI = (BMIMark > BMIJohn);
+console.log(markHigherBMI);
