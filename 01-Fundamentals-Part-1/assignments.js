@@ -6,8 +6,8 @@
 
 // = 1
 
-let country = "Canada"
-let continent = 'North America'
+const country = "Canada"
+const continent = 'North America'
 let population = 41718598;
 
 console.log(country,',', continent,',', population);
@@ -17,12 +17,24 @@ console.log(country,',', continent,',', population);
 
 // = 2 Data Types
 
-let isIsland = false;
+const isIsland = false;
 let language;
 
 console.log(typeof isIsland);
 console.log(typeof country);
 console.log(typeof population);
 console.log(typeof language);
+
+// SUM = Correct
+
+
+// = 3 let, const, var
+
+language = 'English';
+console.log(language);
+
+// | isIsland = true;
+// | console.log(isIsland);
+// * This doesn't work because of the rules of const
 
 // SUM = Correct

@@ -164,7 +164,7 @@ console.log(typeof('Jento'));
 javascriptIsInProgress = 'Sui!';
 console.log(typeof(javascriptIsInProgress));
 
-// * This can only be done if the variable is declared with ( let ) then without using ( let ) you can change the value of the variable.
+// SUM : This can only be done if the variable is declared with ( let ) then without using ( let ) you can change the value of the variable.
 
 let yo;
 console.log(yo);
@@ -181,3 +181,33 @@ console.log(typeof(yo));
 console.log(typeof null);
 
 // * This is incorrect, it should return null but returns object for legacy reason bug remains.
+
+
+// = Ways to Declare Variables in JS
+
+// * let and const are the new way
+// * var is the old way
+
+
+// = let
+// = var acts the same way
+
+// * Use for variables that will change
+// * Only use if you are certain will change in the future
+
+let ageJim = 45;
+ageJim = 455;
+
+
+var ageSal = 33;
+ageSal = 333;
+
+// * Reassign or Mutate the variable
+
+
+// = const
+
+const birthYear = 1994;
+
+// * const values cannot change 
+// * Use const by default
