@@ -47,6 +47,8 @@ if (js === "amazing")
 4 / 5;
 
 
+
+
 // = Values
 
 // | = let js = "amazing";
@@ -63,6 +65,7 @@ let firstName = "Bren";
 console.log(firstName);
 console.log(firstName);
 console.log(firstName);
+
 
 /*
 
@@ -145,6 +148,8 @@ let sheep;
 */
 
 
+
+
 // = BOOLEANS
 
 true;
@@ -174,6 +179,8 @@ yo = 1999;
 console.log(typeof(yo));
 
 // * These are examples of dynamic typing
+
+
 
 
 // = NULL and Typeof
@@ -211,6 +218,8 @@ const birthYear = 1994;
 
 // * const values cannot change 
 // * Use const by default
+
+
 
 
 // = Basic Operators
@@ -271,6 +280,8 @@ console.log(isFullAge);
 console.log(now - 1994 > now - 2018);
 
 
+
+
 // = Operator Precedence
 
 // * Can be found officially on MDN site
@@ -291,6 +302,8 @@ const averageAge = (ageJiff + ageLue / 2)
 console.log();
 
 // = Use () to create an order, without them the / is executed 1st
+
+
 
 
 // = Strings and Template Literals
@@ -374,3 +387,57 @@ if(birthYearMitch <= 2000) {
 }
 
 console.log(century)
+
+
+
+
+// = Type Conversion and Coercion
+
+const inputYear = "1991"; // string
+console.log(inputYear + 18); // 
+
+// * convert strings to number using Number(), N must be capitalized
+
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+
+// = NaN (Not a Number)
+
+console.log(Number('Joan')); 
+
+// * NaN (Not a number) When an operation involving numbers fails to give a new number
+
+console.log(typeof NaN);
+
+
+// = Strings
+
+console.log(String(23), 23);
+
+// * convert to strings using String(), S must be capitalized
+
+
+// = Coercion
+
+console.log('I am ' + 24 + ' years old.'); 
+// * Auto coercion through the + to String
+// * When Strings and Numbers interact, always is converted to a string
+
+// = +
+
+console.log('23' + '10' + 3); // * Will concatenate
+
+// = -
+
+console.log('23' - '10' - 3);
+// * Auto converts strings to number through the - 
+
+console.log('23' / '2' );
+
+let n = '1' + 1; // * Will concatenate : 11
+n = n - 1; // * String - 1 : 10
+console.log(n);
+
+
+// | '10'-'4'-'3'-2+'5'; // SUM : 10 - 4 - 3 - 2 = 1 + '5' = 15;
