@@ -444,6 +444,8 @@ console.log(n);
 // // SUM : 10 - 4 - 3 - 2 = 1 + '5' = 15;
 
 
+
+
 // = Falsy Values
 
 // * These are values that are not exactly false but will be treated as false when converted to a boolean (boolean context) 
@@ -497,3 +499,27 @@ if(height) {
 } else {
     console.log('Height is undefined.')
 }
+
+
+// = EQUALITY OPERATORS
+
+
+// } Cheese Company Data
+
+const yearsAged = 18;
+if (yearsAged === 18) console.log('The cheddar has reached the required age.');
+
+
+// = The == does perform type coercion (loose)
+
+'18' == 18 // TRUE
+console.log('18' == 18);
+
+
+// = The === doesn't perform type coercion (strict)
+
+'18' === 18 // FALSE
+console.log('18' === 18);
+
+
+// * As a rule, always use strict equality
