@@ -78,7 +78,7 @@ Remember to use CamelCase
 */
 
 let myFirstJob = "Paper Carrier"
-let myCurrentJob = "Polymath : Musician, Coder, Inventor, Businessman"
+let myCurrentJob = "Polymath : Musician, Coder, Inventor, Trader, Businessman"
 
 console.log(myFirstJob)
 
@@ -341,10 +341,10 @@ const ageJo = 15;
 
 
 if(ageJo >= 18) {
-    console.log(`Sarah can have her driver's permit 🏎️ `);
+    console.log(`Jo can have her driver's permit 🏎️ `);
 } else {
     const yearsLeft = 18 - ageJo;
-    console.log(`Sarah is too young. She must wait ${yearsLeft} more years.`)
+    console.log(`Jo is too young. She must wait ${yearsLeft} more years.`)
 }
 
 // * if (boolean) : the condition must be a boolean or code will break
@@ -362,10 +362,10 @@ if(){
 const nowAge = 15;
 
 
-if(nowAgege >= 18) {
+if(nowAge >= 18) {
     console.log(`Sarah can have her driver's permit 🏎️ `);
 } else {
-    const yearsLeft = 18 - age;
+    const yearsLeft = 18 - nowAge;
     console.log(`Sarah is too young. She must wait ${yearsLeft} more years.`)
 }
 
@@ -433,11 +433,67 @@ console.log('23' + '10' + 3); // * Will concatenate
 console.log('23' - '10' - 3);
 // * Auto converts strings to number through the - 
 
-console.log('23' / '2' );
+console.log('23' / '2' ); // H: 11.5
 
 let n = '1' + 1; // * Will concatenate : 11
 n = n - 1; // * String - 1 : 10
+
 console.log(n);
 
+// H: '10'-'4'-'3'-2+'5'; 
+// // SUM : 10 - 4 - 3 - 2 = 1 + '5' = 15;
 
-// | '10'-'4'-'3'-2+'5'; // SUM : 10 - 4 - 3 - 2 = 1 + '5' = 15;
+
+// = Falsy Values
+
+// * These are values that are not exactly false but will be treated as false when converted to a boolean (boolean context) 
+
+// * False: 0, '', null, undefined, NaN
+
+
+console.log(Boolean(0));
+
+console.log(Boolean(null));
+console.log(Boolean(undefined));
+console.log(Boolean(NaN));
+
+
+// = Truthy Values
+
+// * These are values that are not exactly true but will be treated as true when converted to a boolean (boolean context) 
+
+// * True: 1, 'test', , [], {}
+
+console.log(Boolean(1));
+console.log(Boolean('test'));
+
+console.log(Boolean([]));
+console.log(Boolean({}));
+
+
+// = BOOLEAN Logic
+
+
+// 0
+// Can try 100
+
+const money = 0;
+
+if (money) { // This will be converted to false
+    console.log("For now I won't spend it all ;)");
+} else {
+    console.log('Go get a job.');
+}
+
+
+// undefined
+// Can try a number
+
+let height;
+// Using let height = 0 would print 'Height is undefined.' When in actuality height = 0, this is a bug
+
+if(height) {
+    console.log('Yes, height is defined.');
+} else {
+    console.log('Height is undefined.')
+}
