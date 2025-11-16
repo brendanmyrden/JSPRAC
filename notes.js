@@ -608,3 +608,36 @@ if(favouriteNumberNow !== 22) {
 } else {
     console.log(`22 is the best number.`)
 }
+
+//____________________________________________________________________________________________________________________
+
+// = BOOLEAN LOGIC : Basics : The And, Or, & Not Operators
+
+
+// = A & B
+
+// }  A : Age is greater or equal to 20
+// }  B : Age is less than 30
+
+// SUM :  A = False
+// SUM :  B = True
+
+// }  Age = 16
+
+
+// = AND
+
+// *  A AND B = false
+// * !A and B = true // A is inverted by the NOT operator
+
+
+// = OR
+
+// *  A OR B = true
+// * !A OR B = true
+
+
+// = NOT !
+
+// * !A = true   // Inverts value of the variable
+// *  A OR !B = false
