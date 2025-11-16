@@ -467,7 +467,7 @@ console.log(n);
 
 
 console.log(Boolean(0));
-
+console.log(Boolean(''));
 console.log(Boolean(null));
 console.log(Boolean(undefined));
 console.log(Boolean(NaN));
@@ -481,7 +481,6 @@ console.log(Boolean(NaN));
 
 console.log(Boolean(1));
 console.log(Boolean('test'));
-
 console.log(Boolean([]));
 console.log(Boolean({}));
 
@@ -590,9 +589,7 @@ if (favouriteNumber === 22 ) {
 } else if(favouriteNumber === 8) {
     console.log(`This is a great choice as well.`)
 
-} else if(favouriteNumber !== 23){
-    console.log(``)
-
+} else if(favouriteNumber !== 23){ // } Uses Different Operator
     console.log(`Number isn't 22 or 8.`)
 };
 
@@ -641,3 +638,36 @@ if(favouriteNumberNow !== 22) {
 
 // * !A = true   // Inverts value of the variable
 // *  A OR !B = false
+
+//____________________________________________________________________________________________________________________
+
+// = LOGICAL OPERATORS
+
+const hasDriversLicense = true; // * A
+const hasGoodVision = true;     // * B
+
+
+const hasBurger = true;  // * C
+const hasFries  = false; // * D
+
+console.log(hasBurger && hasFries) // false
+console.log(hasBurger || hasFries) // true
+console.log(!hasBurger )           // false
+
+
+// * if you want to extrapolate the variable -- > const shouldDrive = (hasDriversLicense && hasGoodVision);
+
+// | if(hasDriversLicense && hasGoodVision) {
+// |    console.log('Sarah is able to drive.')
+// | } else {
+// |    console.log('Someone else should drive.')
+// | }
+
+const isTired = false; // * C
+console.log(hasDriversLicense && hasGoodVision && !isTired);
+
+if(hasDriversLicense && hasGoodVision && !isTired) {
+    console.log('Sarah is able to drive.')
+ } else {
+    console.log('Someone else should drive.')
+ }
