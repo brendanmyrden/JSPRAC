@@ -1,56 +1,48 @@
-// SUM: JS Course : Unit 2
+//____________________________________________________________
 
-//____________________________________________________________________________________________________________________
+// SUM : JS COURSE
 
+//____________________________________________________________
 
-// = Alerts and Pop-Up's
+// = 1 Alerts and Pop-Up's
 
 
 alert("Hello Brendan, here you are again");
-
-// H: alert("Continue with the Udemy Popup");
-
+alert("Continue with the Udemy Popup");
 
 let js = "amazing";
-
 if (js === "amazing")
 
   alert("I find this enjoyable now. I am a cyberpunk...");
 
-//____________________________________________________________________________________________________________________
+//___________________________________________________________
 /* 
 
-= 1 Change the variable, break the pop-up
+= 1.2 Change the variable, break the pop-up
 
 | let js = "nonchalant"
 
 
-= 2 Run this
+
+= 1.3 Run this
 
 | if (js === 'amazing')
-
 |   alert ('I find this enjoyable now. I am a cyberpunk...')
 
-! 3 Now the code no longer works
+! Now the code no longer works
 
 */ 
-//____________________________________________________________________________________________________________________
+//___________________________________________________________
 
-// = Math Operators
+// = 2 Math Operators
 
 40 + 20;
-
 40 - 20;
-
 4 * 5;
-
 4 / 5;
 
-
-
-//____________________________________________________________________________________________________________________
-
-// = Values
+//___________________________________________________________
+// = 3 Values
 
 // | = let js = "amazing";
 // H: if (js === "amazing") alert("Javascript is FUN!");
@@ -67,7 +59,6 @@ console.log(firstName);
 console.log(firstName);
 console.log(firstName);
 
-
 /*
 
 // SUM 
@@ -83,13 +74,11 @@ let myCurrentJob = "Polymath : Musician, Coder, Inventor, Trader, Businessman"
 
 console.log(myFirstJob)
 
-//____________________________________________________________________________________________________________________
+//_________________________________________________________
 
-// = Data Types
+// = 4 Data Types : Objects or Primitives
 
-// SUM = Objects or Primitives
-
-//____________________________________________________________________________________________________________________
+//_________________________________________________________
 
 // = Object
 
@@ -97,7 +86,7 @@ let me = {
   name: 'Brendan'
 };
 
-//____________________________________________________________________________________________________________________
+//_________________________________________________________
 
 // = Primitive
 
@@ -105,25 +94,30 @@ let artistName = 'Myrryr';
 let ageComing = '365';
 
 
-//____________________________________________________________________________________________________________________
+//_________________________________________________________
 
-// = 7 Primitives
+// = Primitives [ 7 Main Primitives ]
+
 
 // } Number : Floating Point Numbers - Integers & Decimals
+
 // Decimal is always there, just floating.
 
 let age = 29;
 
 
 // } String : Sequence of characters = Used for text
+
 // Always used quotes : '' or ""
 
 let myName = "Bren";
+let myHouse = `Large`;
 
 
 // } Boolean : Logical type that can only be true or false = Used for decisions
 
 let aliveForever = true;
+let povertyEver = false;
 
 
 // } Undefined : Value of a variable that's not yet defined ('empty value') 
@@ -151,10 +145,7 @@ let sheep;
 // = A Value has a type not a variable
 
 */
-
-
-
-//____________________________________________________________________________________________________________________
+//_______________________________________________________
 
 // = BOOLEANS
 
@@ -187,6 +178,7 @@ console.log(typeof(yo));
 // * These are examples of dynamic typing
 
 
+//_______________________________________________________
 
 
 // = NULL and Typeof
@@ -226,7 +218,7 @@ const birthYear = 1994;
 // * Use const by default
 
 
-//____________________________________________________________________________________________________________________
+//______________________________________________________________________
 
 // = Basic Operators
 
@@ -241,7 +233,7 @@ console.log(ageBrendan, ageSam);
 
 // | Because 2045 is the same value used twice, extrapolate it to a variable
 
-//____________________________________________________________________________________________________________________
+//______________________________________________________________________
 
 // = Math Operators
 
@@ -263,7 +255,7 @@ const lastInitial = "M";
 
 console.log(firstInitial + lastInitial);
 
-//____________________________________________________________________________________________________________________
+//______________________________________________________________________
 
 // =  Assignment Operators
 
@@ -276,7 +268,7 @@ console.log(x);
 
 // | Pay attention to order of operations ()
 
-//____________________________________________________________________________________________________________________
+//______________________________________________________________________
 
 // = Comparison Operators : Which are boolean
 
@@ -289,7 +281,7 @@ console.log(isFullAge);
 console.log(now - 1994 > now - 2018);
 
 
-//____________________________________________________________________________________________________________________
+//______________________________________________________________________
 
 // = Operator Precedence
 
@@ -307,14 +299,13 @@ let x, y;
 x = y = 25 - 10 - 5;
 console.log(x, y);
 
-const averageAge = (ageJiff + ageLue / 2)
+const averageAge = (ageJiff + ageLue / 2) // ((ageJiff + ageLue) / 2) is proper
 console.log();
 
 // = Use () to create an order, without them the / is executed 1st
 
 
-//____________________________________________________________________________________________________________________
-
+//______________________________________________________________________
 // = Strings and Template Literals
 
 const firstNickname = "Bren";
@@ -332,7 +323,7 @@ console.log(brendanNew);
 
 console.log(`A regular string...`);
 
-//____________________________________________________________________________________________________________________
+//______________________________________________________________________
 
 // = if / else statements
 
@@ -358,7 +349,7 @@ if(ageJo >= 18) {
 }
 
 // * if (boolean) : the condition must be a boolean or code will break
-
+//_______________________________________________________________
 
 if(){
 
@@ -368,6 +359,7 @@ if(){
 
 // ! This above is called and if / else control structure
 
+//_______________________________________________________________
 
 const nowAge = 15;
 
@@ -399,7 +391,7 @@ if(birthYearMitch <= 2000) {
 console.log(century)
 
 
-//____________________________________________________________________________________________________________________
+//______________________________________________________________________
 
 // = Type Conversion and Coercion
 
@@ -411,7 +403,7 @@ console.log(inputYear + 18); //
 console.log(Number(inputYear), inputYear);
 console.log(Number(inputYear) + 18);
 
-//____________________________________________________________________________________________________________________
+//______________________________________________________________________
 
 // = NaN (Not a Number)
 
@@ -421,7 +413,7 @@ console.log(Number('Joan'));
 
 console.log(typeof NaN);
 
-//____________________________________________________________________________________________________________________
+//______________________________________________________________________
 
 // = Strings
 
@@ -429,7 +421,7 @@ console.log(String(23), 23);
 
 // * convert to strings using String(), S must be capitalized
 
-//____________________________________________________________________________________________________________________
+// ______________________________________________________________________
 
 // = Coercion
 
@@ -457,7 +449,7 @@ console.log(n);
 // // SUM : 10 - 4 - 3 - 2 = 1 + '5' = 15;
 
 
-
+// ______________________________________________________________________
 
 // = Falsy Values
 
@@ -472,6 +464,7 @@ console.log(Boolean(null));
 console.log(Boolean(undefined));
 console.log(Boolean(NaN));
 
+// ______________________________________________________________________
 
 // = Truthy Values
 
@@ -484,6 +477,7 @@ console.log(Boolean('test'));
 console.log(Boolean([]));
 console.log(Boolean({}));
 
+// ______________________________________________________________________
 
 // = BOOLEAN Logic
 
@@ -512,7 +506,7 @@ if(height) {
     console.log('Height is undefined.')
 }
 
-//____________________________________________________________________________________________________________________
+//______________________________________________________________________
 
 // = EQUALITY OPERATORS
 
@@ -537,7 +531,7 @@ console.log('18' === 18);
 
 // * As a rule, always use strict equality
 
-//____________________________________________________________________________________________________________________
+//______________________________________________________________________
 
 // = Web Prompts
 
@@ -561,7 +555,7 @@ if(ageOfWine == 10) { // * '10' == 10 (loose equality operator) -- TRUE
     console.log(`Great choice. A decade of aging is perfect.`)
 }
 
-//____________________________________________________________________________________________________________________
+//______________________________________________________________________
 
 // } Prompt
 
@@ -582,19 +576,23 @@ console.log(typeof favouriteNumber);
 // ! Always use
 
 if (favouriteNumber === 22 ) {
+    
     console.log(`Great choice. This is my favourite number as well.`)
 
     // * '22' === 22 (strict equality operator) -- FALSE --> will not appear in console
 
 } else if(favouriteNumber === 8) {
+
     console.log(`This is a great choice as well.`)
 
 } else if(favouriteNumber !== 23){ // } Uses Different Operator
+    
     console.log(`Number isn't 22 or 8.`)
 };
 
 // SUM: Always use the strict equality operator
 
+//______________________________________________________________________
 
 // } Different Operator
 
@@ -606,7 +604,7 @@ if(favouriteNumberNow !== 22) {
     console.log(`22 is the best number.`)
 }
 
-//____________________________________________________________________________________________________________________
+//______________________________________________________________________
 
 // = BOOLEAN LOGIC : Basics : The And, Or, & Not Operators
 
@@ -639,7 +637,7 @@ if(favouriteNumberNow !== 22) {
 // * !A = true   // Inverts value of the variable
 // *  A OR !B = false
 
-//____________________________________________________________________________________________________________________
+//______________________________________________________________________
 
 // = LOGICAL OPERATORS
 
@@ -672,7 +670,7 @@ if(hasDriversLicense && hasGoodVision && !isTired) {
     console.log('Someone else should drive.')
  }
 
- //____________________________________________________________________________________________________________________
+ //_____________________________________________________________________
 
 // = SWITCH Statement // Alternative way to write an if/else statement
 
@@ -709,7 +707,7 @@ switch(day) {
 }
 
 
-// } Alternative to Switch Statement
+// = Alternative to Switch Statement
 
 if(day === 'monday'){
 
@@ -728,4 +726,120 @@ if(day === 'monday'){
     console.log('Not a valid day')
 }
 
- //____________________________________________________________________________________________________________________
+ //_____________________________________________________________________
+
+ // = Expression 
+
+// * Produces a value
+// | Examples
+
+3 + 4
+1991
+true && false && !false
+
+
+// = Statement // Declaration
+
+// * Large piece of code that is executed
+// * Doesn't produce a value itself
+
+// | Code is written in statements, consecutive actions
+
+// * EX
+
+if(23 > 10){
+    const str = '23 is bigger';
+}
+
+
+// = THE CONDITIONAL (TERNARY) OPERATOR
+
+
+const ageKolo = 23
+
+ageKolo >= 18 ? console.log(`I like to drink wine 🍶`) : console.log(`I like to drink water 🚰`)
+
+
+//____________________________________________________________
+
+// = Review of Notes 
+
+console.log("Ok, Review Commence");
+
+//____________________________________________________________
+
+// } Alerts + Pop'Ups
+
+alert(`Welcome back to JS land. Where your interactivity is paramount.`)
+
+//____________________________________________________________
+
+let js = "very cool";
+if (js === "very cool") alert ("This is helping you readjust, don't fear it. Or fear it and do it anyway.");
+
+//____________________________________________________________
+
+10 + 10;
+100 + 100;
+
+//____________________________________________________________
+
+const $hell = thisIsValid;
+const _alsoUseable = thisIsAlsoValid;
+const camelCase
+
+
+const assetChart = {
+    name: `useful venture`
+};
+
+const anotherName = 'I AM';
+const ageIsNow = 'Another Variable';
+
+let ageMary = 20009;
+
+let myHome = "Blessed";
+let myMind = "Blessed";
+
+const sentence = `Here my home is ${myHome}, Here my home is ${myMind}`;
+
+let ageOfMind = 3000;
+
+let aliveForeverMore = true;
+let forMyHeartLives = true;
+
+let shoe;
+
+// = BOOLEAN LOGIC
+
+console.log(`Let's test some boolean logic.`);
+
+
+let myMoney = 0;
+
+if (myMoney) {
+    console.log(`Don't spend all your cash.`)
+} else {
+    console.log(`Go get income.`)
+};
+
+
+let heightJim;
+
+if(heightJim) {
+    console.log('Yes, height is defined.')
+} else {
+    console.log('No, height is undefined. Therefore, falsy value.')
+}
+
+let favNum = Number(prompt(`What is your favourite number?`));
+
+console.log(favNum);
+
+
+
+
+//____________________________________________________________
+
+// = Return to Course
+
