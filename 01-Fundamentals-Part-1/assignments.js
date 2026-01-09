@@ -90,9 +90,9 @@ console.log(markHigherBMI);
 
 // = 5 Strings and Template Literals
 
-const description = `${country} is in ${continent} and it's ${myCountryPopulation} people speak ${language}`;
+const descriptor = `${country} is in ${continent} and it's ${myCountryPopulation} people speak ${language}`;
 
-console.log(description);
+console.log(descriptor);
 
 // * = Correct
 
@@ -149,3 +149,20 @@ if(BMIMark > BMIJohn){
  }
  
  //____________________________________________________________________________________________________________*/
+
+  // = Coding Challenge 4
+
+     const bill = 275;
+// * const bill = 20; // try 20
+  
+
+// } My Way
+
+const tip = bill >= 50 && bill <= 300 ? bill * .15 : bill * .20
+
+const total = `The bill was ${bill}. The tip is ${tip}. The total value is ${bill + tip}.`;
+
+console.log(total);
+
+
+// } Teacher's Way

@@ -70,7 +70,7 @@ Remember to use CamelCase
 */
 
 let myFirstJob = "Paper Carrier"
-let myCurrentJob = "Polymath : Musician, Coder, Inventor, Trader, Businessman"
+let myCurrentJob = "Polymath : Musician, Coder, Inventor, Trader, Founder"
 
 console.log(myFirstJob)
 
@@ -390,7 +390,8 @@ if(birthYearMitch <= 2000) {
 
 console.log(century)
 
-
+const personalRemark = `Born near the end of the 20th century`;
+console.log(personalRemark);
 //______________________________________________________________________
 
 // = Type Conversion and Coercion
@@ -760,6 +761,18 @@ const ageKolo = 23
 ageKolo >= 18 ? console.log(`I like to drink wine 🍶`) : console.log(`I like to drink water 🚰`)
 
 
+// } = Examples
+
+const numOfWatermelons = 23;
+
+numOfWatermelons >= 14 ? console.log('I have more than 14 watermelons.') : console.log('I have less than 14 watermelons.');
+
+
+const numOfKumwats = 2;
+
+numOfKumwats >= 1 ? console.log('I have more than 1 kumwat.') : console.log('I have less than 1 kumwat.');
+
+
 //____________________________________________________________
 
 // = Review of Notes 
@@ -841,5 +854,7 @@ console.log(favNum);
 
 //____________________________________________________________
 
-// = Return to Course
+// = Return to Course (Coda;)
 
+// * JAN 8, 2026 THURS = Review : Complete ☑️
+// * JAN 5, 2026 THURS = Review : Complete ☑️
