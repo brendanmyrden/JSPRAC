@@ -42,6 +42,7 @@ if (js === "amazing")
 4 / 5;
 
 //___________________________________________________________
+
 // = 3 Values
 
 // | = let js = "amazing";
@@ -851,10 +852,52 @@ console.log(favNum);
 
 
 
+//___________________________________________________________
+
+// }   'use strict';
+
+
+// = Functions 
+
+// * Reuseable blocks of code
+
+
+
+function logger() {
+
+    console.log(`My name is SYYR`)
+}
+
+
+// * calling / running / executing / invoking the function
+
+logger();
+
+//___________________________________________________________
+
+// * Example - Fruit Processor
+
+function fruitProcessor(mangos,cherries) {
+//    console.log(mangos, cherries);
+    const juice = `Juice with ${mangos} mangos and ${cherries} cherries.`;
+    return juice;
+}
+
+const mangoJuice = fruitProcessor(3,0);
+const cherryJuice = fruitProcessor(0,8);
+
+console.log(mangoJuice);
+console.log(cherryJuice);
+
+
+const mangoCherryJuice = fruitProcessor(3,8);
+console.log(mangoCherryJuice);
 
 //____________________________________________________________
 
 // = Return to Course (Coda;)
 
+// * JAN 8, 2026 THURS = Mod 2  : Complete ☑️
 // * JAN 8, 2026 THURS = Review : Complete ☑️
 // * JAN 5, 2026 THURS = Review : Complete ☑️
+

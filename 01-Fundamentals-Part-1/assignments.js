@@ -154,15 +154,10 @@ if(BMIMark > BMIJohn){
 
      const bill = 275;
 // * const bill = 20; // try 20
-  
 
-// } My Way
 
 const tip = bill >= 50 && bill <= 300 ? bill * .15 : bill * .20
 
 const total = `The bill was ${bill}. The tip is ${tip}. The total value is ${bill + tip}.`;
 
 console.log(total);
-
-
-// } Teacher's Way
